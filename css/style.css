@@ -150,20 +150,25 @@ html {
  .contactForm {
      font-size: 2rem;
      margin-top: 5rem;
- }
- .field {
      display: flex;
      flex-direction: column;
      justify-content: center;
+     flex-wrap: nowrap;
+ }
+ .field {
      width: 30%;
      margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     flex-wrap: nowrap;
  }
  .field input, .field textarea {
      border-radius: 7px;
      padding: .5rem 1rem;
  }
 
- .actions input {
+ .actions button, .actions input {
      border-radius: 7px;
      padding: .5rem;
      margin-top: .5rem;
