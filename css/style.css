@@ -159,12 +159,16 @@ html {
      margin: 0 auto;
  }
  .field input, .field textarea {
-     border-radius: 15px;
+     border-radius: 7px;
      padding: .5rem 1rem;
  }
 
- .actions li {
-     list-style: none;
+ .actions input {
+     border-radius: 7px;
+     padding: .5rem;
+     margin-top: .5rem;
+     background-color: black;
+     color: orangered;
  }
  
  
