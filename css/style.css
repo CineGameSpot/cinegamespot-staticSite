@@ -284,6 +284,10 @@ html {
      text-decoration: none;
      color: rgba(243, 243, 243, 0.592);
  }
+
+ #footerBottomBottom {
+    margin-top: 1rem;
+ }
  
  .copyright {
      margin: 0 auto;
@@ -293,3 +297,37 @@ html {
  
  
  /* *************** MISC *************** */
+ @media only screen and (max-width: 600px) {
+    .logo {
+        width: 100%;
+    }
+    #logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #logo img {
+        width: 50%;
+    }
+    .navContainer, .fa-regular {
+        display: none;
+    }
+    .container {
+        padding: 1%;
+    }
+    .field {
+        width: 60%;
+    }
+    .actions button, .actions input {
+        width: 30%;
+    }
+    .footer {
+        margin-bottom: -50px;
+    }
+    #socials {
+        width: 60%;
+    }
+    #footerTopCenter ul {
+        padding: 0;
+    }
+  }
